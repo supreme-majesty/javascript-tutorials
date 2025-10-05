@@ -1,37 +1,16 @@
-// Loops
-// For Loop, While Loop, Do-While Loop, For-In Loop
-
-let myArray = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
-
-for (let i = 0; i < myArray.length; i++) {
-  console.log(myArray[i]);
+function add(num1, mun2) {
+    return num1 + mun2;
 }
 
-// 2D Array
-let my2DArray = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9],
-];
-
-for (let i = 0; i < my2DArray.length; i++) {
-  for (let j = 0; j < my2DArray[i].length; j++) {
-    console.log(my2DArray[i][j]);
-  }
+function hello(name = "World") {
+    console.log("Hello "+name+", from script.js!");
 }
 
-// Asigmnment for 3D Array
-let my3DArray = [
-  [
-    [1, 2],
-    [3, 4],
-  ],
-  [
-    [5, 6],
-    [7, 8],
-  ],
-  [
-    [9, 10],
-    [11, 12],
-  ],
-];
+hello('JavaScript');
+console.log(add(5, 10) * 2)
+
+function calculator(num1, num2, operation) {}
+
+calculator(5, 10, '/');
+
+// DOM
