@@ -1,18 +1,27 @@
-let name; // Variable declaration
-let age; // Variable declaration
+let myArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-var address = "123 Main St"; // Variable assignment
+// 2D Array
+let myArr2D = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+ 
+// 3D Array
+let myArr3D = [
+  [
+    [1, 2],
+    [3, 4],
+  ],
+  [
+    [5, 6],
+    [7, 8],
+  ],
+];
 
-name = "John Doe"; // Variable assignment
-age = 30; // Variable assignment
+console.log(myArr3D[1][1][1]);
 
-// String concatenation
-
-// Template literals
-name = "Jane Doe";
-age = 25;
-
-
-console.log('My name is ' + name + ' and I am ' + age + ' years old.');
-
-console.log(`My name is ${name} and I am ${age} years old. I live at ${address}.`);
+// console.log(myArr);
+// console.log(myArr2D);
+// console.log(myArr3D);
+ 
